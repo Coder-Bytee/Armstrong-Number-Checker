@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mooli&display=swap');
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #7b76ff;
+}
+.wrapper-container
+{
+    width:30%;
+    margin:15vh auto;
+}
+.wrapper-container .container h1
+{
+    font-size: 1.5rem;
+}
+.wrapper-container .container
+{
+
+    padding:5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    row-gap:2rem;
+    border-radius:0.6rem;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-container .container input
+{
+    padding:1rem;
+    width:100%;
+    border:1px solid #c1c1c1;
+    border-radius:0.5rem;
+
+}
+.wrapper-container .container h1
+{
+    text-align: center;
+}
+.wrapper-container .container .btn-container .check-btn
+{
+    padding:0.8rem 1rem;
+    width:8rem;
+   
+    background-color: #544eff;
+    color:#fff;
+    border:none;
+    border-radius:0.5rem;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btn-container
+{
+    display: flex;
+    gap:1rem;
+}
+.wrapper-container .container .btn-container .check-btn:hover
+{
+    background-color:#2e27f8 ;
+}
+.wrapper-container .container .res-container .neg-result-text
+{
+    padding:1rem;
+    background-color: #F8D7DA;
+    color:#904c5c;
+    border:1px solid #f6cdd1;
+    border-radius:5px;
+    font-weight:600;
+    width:100%;
+}
+.wrapper-container .container .res-container .pos-result-text
+{
+    padding:1rem;
+    background-color: #d4edda;
+    color:#3591a1;
+    border:1px solid #d3efda;
+    border-radius:5px;
+    font-weight:600;
+    width:100%;
+}
+@media screen and (max-width:1000px) {
+    .btn-container
+    {
+        flex-direction: column;
+    }
+
+    .wrapper-container
+{
+    width:60%;
+    margin:5vh auto;
+}
+    
+}
